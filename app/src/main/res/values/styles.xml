@@ -1,6 +1,6 @@
 <resources>
 
-    <style name="AppTheme" parent="Base.Theme.AppCompat.Light">
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
 
         <item name="android:windowBackground">@color/accent_material_dark</item>
         <item name="android:fitsSystemWindows">false</item>
