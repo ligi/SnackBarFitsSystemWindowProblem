@@ -1,10 +1,12 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:tools="http://schemas.android.com/tools"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                 xmlns:tools="http://schemas.android.com/tools"
+                                                 android:layout_width="match_parent"
+                                                 android:layout_height="match_parent"
+                                                 android:background="#FFFF0000"
+                                                 android:fitsSystemWindows="true"
+                                                 android:id="@+id/container"
+                                                 tools:context=".MainActivity">
 
-                android:fitsSystemWindows="true"
-                tools:context=".MainActivity">
 
     <Button
 
@@ -13,4 +15,4 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
 
-</RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>
